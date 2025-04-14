@@ -28,7 +28,7 @@ di background-image URL --><style>
 }
 @keyframes fanim {0% {background-position: 0% 0%;}25% {background-position: 100% 100%;} 50% {background-position: 0% 100%;} 75% {background-position: 50% 50%;} 100% {background-position: 0% 0%;}}
 body{background-color:#000;font-family:var(--gaya-font);padding: 20px 25px;-webkit-user-select: none; -ms-user-select: none; user-select: none;} a{text-decoration:none;}
-body::before{bottom:25px;left:25px;content:"\00A9  feelthisray (formerly Rayys)";padding:8px;border-radius:12px;background:black;color:white;opacity:.7;font-size:11px;position:fixed;z-index:999}
+body::before{bottom:25px;left:25px;content:"\00A9  Redzin";padding:8px;border-radius:12px;background:black;color:white;opacity:.7;font-size:11px;position:fixed;z-index:999}
 #bodyblur{opacity:.6;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.3);z-index:-1;transition:all 1s ease;} 
 #wallpaper{width:100%;height:100%;transition:all 2s ease;}
 #beneranblur{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.3);-webkit-backdrop-filter:blur(3px); backdrop-filter:blur(3px);transition:all 3s ease;}
@@ -88,7 +88,7 @@ p{font-size:18px;font-weight:400;line-height:1.4em;/*text-shadow: 0px 2px 2px rg
      <div id="suratin" onClick="memulai();">
        <!-- Tombol Surat --><img src="https://rayyscoding.github.io/envelope.png"/>
      </div>
-     <p id="ket">Oliii mi cielitoo abremee <3 !</p>
+     <p id="ket">Uma Cartinha Para Você <3 !</p>
     
    <!-- Stiker untuk Pesan Awal --><div id="pesanstiker">
 		<img id="stiker1" src="https://feeldreams.github.io/peach1.gif"/>
@@ -103,26 +103,26 @@ p{font-size:18px;font-weight:400;line-height:1.4em;/*text-shadow: 0px 2px 2px rg
    	async function pesanutama(){
          audio.play();
    	  await swalst.fire({
-            title: 'Quiero decirte que te super amo y que eres mi vida muaak❤️❤️❤️ ',
+            title: 'Quero Que Saiba Que Você É O Amor Da Minha Vida E Que Eu Te Amo Mais Que Tudo Neste Mundo 🥰',
             imageUrl: '' + stiker1.src,
             timer: 5000,
          });   	
             await swalst.fire({
-            title: 'No se cuantas veces te lo he dicho pero me recontra encantas jiji❤️❤️',
+            title: 'Não Tem Se Quer Um Segundo Do Meu Dia Em Que Eu Não Me Encontre Pensando Em Você ❤️',
             imageUrl: '' + stiker2.src,
             timer: 5000,
          });
             await swalst.fire({
-            title: 'No sabes las ganitas de estar contigo para poder darte un montonazos de besotes muak muak muak muak❤️❤️❤️',
+            title: 'Nenhuma Palavra É Capaz De Expressar O Tamanho Do Amor Que Sinto Por Você 😍',
             imageUrl: '' + stiker3.src,
             timer: 5000,
          });
             await swalst.fire({
-            title: 'Darte muchos besitos y muchos mimos ❤️ te juro que a tu lado mi amor soy la persona mas feliz del mundo con solo un mensajito tuyo me llenas de felicidad y alegria ❤️❤️',
+            title: 'As Estrelas Se Tornam Meros Pontinhos De Luz Comparadas Ao Brilho Dos Seus Lindos Olhinhos 🥺',
             imageUrl: '' + stiker4.src,
             timer: 6000,
          });
-            titleAkhir = "Te amooo mucho mi vida recuerda que siempre estare para ti cielito❤️❤️en las buenas y malas mi tesorito hermosoooo ❤️❤️";
+            titleAkhir = "Eu Te Amo Muito Mais Do Que Consigo Expressar Com Palavras E Te Amarei Por Toda A Vida 💖";
             await swalst.fire({
             title: '' + titleAkhir,
             imageUrl: '' + stiker5.src,
@@ -145,30 +145,30 @@ p{font-size:18px;font-weight:400;line-height:1.4em;/*text-shadow: 0px 2px 2px rg
        <p id="kalimatc"></p>
 
        <!-- Konten Pertanyaan -->
-       <p id="kalimat2">¿me amas? 🤭❤️    </p>
+       <p id="kalimat2">Você Me Ama? 🥺</p>
        <p id="kalimatb2"></p>
        <p id="kalimatc2"></p>
 
        <!-- Konten Jawaban -->
-       <p id="kalimat3">Yeaayy!!!🥳</p>
-       <p id="kalimatb3">Ahora ven a mi wasa mi vida😆❤️</p>
+       <p id="kalimat3">Aeeeee 🥳</p>
+       <p id="kalimatb3">Você É O Amor Da Minha Vida 🥰❤️</p>
        <p id="kalimatc3"></p>
      </blockquote></div>
 
       <!-- Pesan Ditolak -->
      <div id="pesanditolak">
        <img id="stikerditolak" src="https://feeldreams.github.io/ywdh.gif"/>
-       <p id="kataditolak">Lloro🥺 pero te doy otra oportunidad jum:(</p>
+       <p id="kataditolak">Tem Certeza? 🙁 Vou Te Dar Mais Uma Chance Para Pensar Melhor... 😥</p>
      </div>
    
      <!-- Tombol Multifungsi -->
      <div id="Tombol">
        <a id="By" onClick="multifungsi()">
-         <b id="tmbl">Siguiente <3</b>
-         <b id="tmbl2">shi</b>
+         <b id="tmbl">Prosseguir <3</b>
+         <b id="tmbl2">Sim</b>
        </a>
        
-       <a id="Bn" onClick="ditolak()">ño</a>
+       <a id="Bn" onClick="ditolak()">Não</a>
      </div>
      
    </div>
@@ -197,7 +197,7 @@ function hilangkan() {document.getElementById("sticky-ad").style = "bottom: -130
   
   function multifungsi(){if(ftom==1){dilanjut();} if(ftom==2){diterima();} if(ftom==5){menuju();}}
   
-  async function menuju(){await swals.fire('TE AMOOOO');window.location = "https://chat.whatsapp.com/BdnCecvw8x90PvXrBrb4k3" + pesanwhatsapp;Tombol.style="margin-top:15px;opacity:1;transform: scale(1);";}
+  async function menuju(){await swals.fire('TE AMOOOO 🥺🥰');window.location = "https://youtu.be/fQv-5OuLODE?si=HMdckxlK6fg7-p2o" + pesanwhatsapp;Tombol.style="margin-top:15px;opacity:1;transform: scale(1);";}
 
   const swalst = Swal.mixin({timer: 2777, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 100,}); const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageWidth: 100, imageHeight: 100,}); const style = document.createElement('style'); var today = new Date();var dd = String(today.getDate()).padStart(2, '0');var mm = String(today.getMonth() + 1).padStart(2, '0');var yyyy = today.getFullYear();const monthNames = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];today = dd + ' ' + monthNames[today.getMonth()] + ' ' + yyyy;
 
@@ -221,7 +221,7 @@ function hilangkan() {document.getElementById("sticky-ad").style = "bottom: -130
   function befanimkata3(){kalimat.style.opacity="0";kalimatb.style.opacity="0";kalimatc.style.opacity="0";} 
   function animkata3() {kalimat.innerHTML = kalimat3.innerHTML;kalimatb.innerHTML = kalimatb3.innerHTML;kalimatc.innerHTML = kalimatc3.innerHTML;kalimat.style.opacity="1";kalimatb.style.opacity="1";kalimatc.style.opacity="1";}
   
-  function sbakhir(){Bn.style.display="none";setTimeout(stakhir,500);} function stakhir(){tmbl.innerHTML="💌 Wasa <3";Tombol.style="opacity:1;transform: scale(1)";ftom=5;fungsi=0;}
+  function sbakhir(){Bn.style.display="none";setTimeout(stakhir,500);} function stakhir(){tmbl.innerHTML="Te Amo 💖";Tombol.style="opacity:1;transform: scale(1)";ftom=5;fungsi=0;}
   
   async function diterima(){
       setInterval(createHeart,200);
